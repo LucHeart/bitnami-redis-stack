@@ -1,4 +1,4 @@
-FROM redis/redis-stack-server:7.4.0-v0 AS redisstackserver
+FROM redis/redis-stack-server:7.4.0-v2 AS redisstackserver
 FROM bitnami/redis:7.4.0
 
 ### My customization
